@@ -10,27 +10,20 @@
 <body>
 <!-- Navigation bar starts -->
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Your Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4">Vytautas' Portfolio</span>
+          </a>
+          
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#hero-section" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#work-section" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#icon-grid" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
 </header>
 <!-- Navigation bar ends-->
 
@@ -38,15 +31,13 @@
 
 <div class="container my-5">
     <div class="p-5 text-center bg-body-tertiary rounded-3">
-      <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
-      <h1 class="text-body-emphasis">Vytautas</h1>
+      <img src="./images/vyProfile.jpg" class="heroImage">
+      <h1 class="text-body-emphasis" id="hero-section">Vytautas</h1>
       <p class="col-lg-8 mx-auto fs-5 text-muted">
     My name is Vy and I am a front-end developer with experience in using tech such as HTML, CSS and Javascript to build responsive websites
       </p>
       <div class="d-inline-flex gap-2 mb-5">
-        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-          Contact Me 
-          <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+        <button type="button" class="btn btn-primary rounded-pill btn-lg">Contact Me</button>
         </button>
         <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
           My Projects
@@ -60,7 +51,7 @@
 <!-- Cards/projects section begins-->
 
 <div class="container">
-    <h1>My work</h1>
+    <h2 class="pb-2 border-bottom" id="work-section">My Work</h2>
     <div class="row">
         <div class="col-4">
             <div class="card">
@@ -196,28 +187,16 @@
   <!-- About me section finishes-->
 
   <!-- Footer navigation items start-->
-
-  <footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h5>Contact Me</h5>
-                <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-                <p>Phone: <a href="tel:+123456789">+123456789</a></p>
-            </div>
-            <div class="col-md-4">
-                <h5>Connect on LinkedIn</h5>
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <h5>Follow Me</h5>
-                <!-- Add your social media links here with icons -->
-            </div>
-        </div>
-    </div>
-</footer>
+  <div class="container">
+    <footer class="py-3 my-4">
+        <h2 class="pb-2 border-bottom" id="contact-section">Contact Me</h2>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="mailto:youremail@example.com" class="nav-link px-2 text-body-secondary">Email</a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/vytautas-tvarijonas-31309717b/" class="nav-link px-2 text-body-secondary">Linkedin</a></li>
+            <li class="nav-item"><a href="https://github.com/vytautastv" class="nav-link px-2 text-body-secondary">GitHub</a></li>
+        </ul>
+    </footer>
+</div>
 
 
   <!-- Footer navigation items end -->
