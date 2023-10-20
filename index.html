@@ -8,95 +8,219 @@
     <title>Vytautas' Portfolio</title>
 </head>
 <body>
-    <header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">My Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
-              </li>
-              </li>
-            </ul>
-          </div>
+<!-- Navigation bar starts -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-    </header>
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">About Me</h1>
-          <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-primary btn-lg" type="button">Get In Touch</button>
+    </nav>
+</header>
+<!-- Navigation bar ends-->
+
+<!-- Jumbotron Starts-->
+
+<div class="container my-5">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+      <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+      <h1 class="text-body-emphasis">Vytautas</h1>
+      <p class="col-lg-8 mx-auto fs-5 text-muted">
+    My name is Vy and I am a front-end developer with experience in using tech such as HTML, CSS and Javascript to build responsive websites
+      </p>
+      <div class="d-inline-flex gap-2 mb-5">
+        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+          Contact Me 
+          <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+        </button>
+        <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+          My Projects
+        </button>
+      </div>
+    </div>
+  </div>
+
+<!-- Jumbotron ends-->
+
+<!-- Cards/projects section begins-->
+
+<div class="container">
+    <h1>My work</h1>
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <img src="./images/pexels-christina-morillo-1181676.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates excepturi sint, quae natus iusto, soluta iure aliquam eos consectetur error molestiae quaerat similique odio sapiente asperiores dolor ipsa sit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="/images/pexels-christina-morillo-1181216.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates excepturi sint, quae natus iusto, soluta iure aliquam eos consectetur error molestiae quaerat similique odio sapiente asperiores dolor ipsa sit.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="col-4">
+            <div class="card">
+                <img src="./images/pexels-christina-morillo-1181260.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Project 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates excepturi sint, quae natus iusto, soluta iure aliquam eos consectetur error molestiae quaerat similique odio sapiente asperiores dolor ipsa sit.</p>
+                </div>
+            </div>
         </div>
     </div>
+    <br>
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <img src="./images/pexels-christina-morillo-1181676.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates excepturi sint, quae natus iusto, soluta iure aliquam eos consectetur error molestiae quaerat similique odio sapiente asperiores dolor ipsa sit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="/images/pexels-christina-morillo-1181216.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates excepturi sint, quae natus iusto, soluta iure aliquam eos consectetur error molestiae quaerat similique odio sapiente asperiores dolor ipsa sit.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="col-4">
+            <div class="card">
+                <img src="./images/pexels-christina-morillo-1181260.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Project 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates excepturi sint, quae natus iusto, soluta iure aliquam eos consectetur error molestiae quaerat similique odio sapiente asperiores dolor ipsa sit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-    <h1 class="display-5 fw-bold">About Me</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+<!-- Projects/Cards section finishes-->
+
+<!-- Skills section with icons begins -->
+
+<div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Skills & Tech Stack</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <img src="./images/html-5.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">HTML</h3>
+          <p>HTML is the foundational language for creating web pages. It provides the structure and layout for content on the internet.</p>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
       </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/css-3.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">CSS</h3>
+          <p>CSS is responsible for the visual presentation of a web page. It controls the layout, color, typography, and overall design.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/js.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Javascript</h3>
+          <p>JavaScript is a versatile programming language that enables dynamic and interactive elements on websites.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/bootstrap.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Bootstrap</h3>
+          <p>Bootstrap is a popular front-end framework that provides a collection of pre-built design components and responsive layouts.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/nodejs.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Node JS</h3>
+          <p>Node.js is a powerful runtime environment for executing JavaScript on the server side.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/git.png" class="img-fluid gitimg">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Git</h3>
+          <p>Git is a distributed version control system that enables developers to track and manage changes in their codebase efficiently.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/api.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">APIs</h3>
+          <p>API integration involves connecting different software systems to enable communication and data exchange.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./images/physics.png" class="img-fluid">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">React</h3>
+          <p>React is a widely used JavaScript library for building user interfaces, particularly single-page applications.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills/icons sections finishes -->
+
+  <!-- About me section begins -->
+
+  <!-- About me section finishes-->
+
+  <!-- Footer navigation items start-->
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact Me</h5>
+                <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                <p>Phone: <a href="tel:+123456789">+123456789</a></p>
+            </div>
+            <div class="col-md-4">
+                <h5>Connect on LinkedIn</h5>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Me</h5>
+                <!-- Add your social media links here with icons -->
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <!-- Footer navigation items end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
