@@ -94,7 +94,7 @@ This application was built for the purpose of completing a bootcamp test.
 
 Here is a screenshot of the finished portfolio site which can be accessed with the above link to Github pages: 
 
-![Vytautas Finished Portfolio Screenshot](./Assets/images/portfolioFin)
+[Vytautas Finished Portfolio Screenshot](./images/portfolioScreenshot.png)
 
 ## Credits
 
